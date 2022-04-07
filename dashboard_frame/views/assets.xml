@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <template id="assets_backend" inherit_id="web.assets_backend">
+        <xpath expr="//script[last()]" position="after">
+            <script type="text/javascript" src="/dashboard_frame/static/src/js/smart_analytics_form_renderer.js"/>
+            <script type="text/javascript" src="/dashboard_frame/static/src/js/smart_analytics_form_view.js"/>
+            <script type="text/javascript" src="/dashboard_frame/static/src/js/smart_analytics_url2iframe.js"/>
+        </xpath>
+    </template>
+
+</odoo>
